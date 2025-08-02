@@ -12,6 +12,8 @@
 
 **Proceeding with this software implies full acceptance of these terms.**
 
+**Only works on Linux**
+
 ---
 
 ## Introduction
@@ -35,9 +37,7 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 2.  **Create and activate a Python virtual environment (recommended):**
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    # venv\Scripts\activate   # On Windows (Command Prompt)
-    # venv\Scripts\Activate.ps1 # On Windows (PowerShell)
+    source venv/bin/activate
     ```
 
 3.  **Install the required Python dependencies:**
