@@ -28,7 +28,7 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Kitty-Hack.git](https://github.com/your-username/Kitty-Hack.git)
+    git clone [https://github.com/TheMongoose/Kitty-Hack.git](https://github.com/TheMongoose/Kitty-Hack.git)
     cd Kitty-Hack
     ```
 
