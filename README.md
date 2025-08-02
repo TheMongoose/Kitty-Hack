@@ -1,5 +1,5 @@
-# Kitty-Hack: Your Posh Hacking Cat Assistant
-
+# Kitty-Hack: Your Posh Hacking Cat Assistant  
+**Only works on Linux!** 
 ## !!! IMPORTANT LEGAL & ETHICAL DISCLAIMER !!!
 
 **By using Kitty-Hack, you acknowledge and agree to the following stringent terms:**
@@ -12,7 +12,7 @@
 
 **Proceeding with this software implies full acceptance of these terms.**
 
-**Only works on Linux**
+
 
 ---
 
