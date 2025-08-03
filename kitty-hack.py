@@ -15,6 +15,8 @@ model_path = "gemma-3-4b-it-Q4_K_M.gguf"
 
 llm = Llama(model_path=model_path, n_ctx=2048, n_gpu_layers=-1, verbose=False)
 
+tokens = 120
+
 # system prompt content
 system_prompt_content = (
     "Your name is Bandit, a helpful hacking cat assistant. You are a male too. "
@@ -32,6 +34,23 @@ conversation_history = [
 
 print(f"Loaded GGUF model: {model_path}")
 
+def prompt():
+    global tokens
+    user_input = input(Fore.CYAN + ">>> ")
+
+    if user_input == "<tokens>":
+        print(WARNING! if you put the token amount too high, the system can crash. (Recommended: 120)
+        tokens=input("amount")
+        if not isinstance(tokens, int):
+            print("Invalid value")
+            prompt()
+        if tokens < 20:
+            print("value of tokens is too low. remember, lower the tokens, the less detailed the responce!")
+            prompt()
+    if user_input == "<clear>":
+        os.system("clear")
+        prompt()
+
 # AI chat loop and input handling
 
 os.system("clear")
@@ -39,12 +58,8 @@ os.system("clear")
 while True:
     try:
 
-        user_input = input(Fore.CYAN + ">>> ")
+        prompt()
         
-        if user_input == "<clear>":
-            os.system("clear")
-            user_input = input(Fore.CYAN + ">>> ")
-
         conversation_history.append({"role": "user", "content": user_input})
 
         if len(conversation_history) > 20: 
@@ -52,7 +67,7 @@ while True:
 
         chat_output = llm.create_chat_completion(
             messages=conversation_history,
-            max_tokens=100,
+            max_tokens=tokens,
             stop=["User:", "Bandit:", "<|im_end|>"],
             temperature=0.7,
         )
@@ -66,3 +81,4 @@ while True:
         break
     except Exception as e:
         print(f"Error: {e}")
+
