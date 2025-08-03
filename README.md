@@ -18,7 +18,7 @@
 
 ## Introduction
 
-Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethical hacking topics. He's a posh and stubborn feline, ready to help you navigate the digital landscape... within legal and ethical bounds, of course.
+Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethical hacking topics. He's a posh and snarky feline, ready to help you navigate the digital landscape... within legal and ethical bounds, of course.
 
 ## Features
 
@@ -55,9 +55,9 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
     * Visit the official Hugging Face repository for the model: [https://huggingface.co/unsloth/gemma-3-4b-it-GGUF](https://huggingface.co/unsloth/gemma-3-4b-it-GGUF)
     * Navigate to the "Files" tab.
     * Download the `gemma-3-4b-it-Q4_K_M.gguf` file.
-    * Place the downloaded file in the same directory as your `kitty_hack.py` script (or `Kitty-ai.py` if you haven't renamed it yet).
+    * Place the downloaded file in the same directory as your `kitty_hack.py` script
 
 ## Usage
 
 ```bash
-python3 kitty_hack.py # or python3 Kitty-ai.py
+python3 kitty_hack.py
