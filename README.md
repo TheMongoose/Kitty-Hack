@@ -1,4 +1,4 @@
-# Kitty-Hack: Your Posh Hacking Cat Assistant  
+# Kitty-Hack: Your Hacking Cat Assistant  
 **Only works on Linux!** 
 ## !!! IMPORTANT LEGAL & ETHICAL DISCLAIMER !!!
 
@@ -23,6 +23,7 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 ## Features
 
 * Interactive chat interface
+* Terminal access (soon)
 * Persona-driven responses
 * Leverages the powerful Gemma 3 AI model
 
