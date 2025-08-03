@@ -2,3 +2,4 @@ llama-cpp-python
 torch
 transformers
 colorama
+accelerate
