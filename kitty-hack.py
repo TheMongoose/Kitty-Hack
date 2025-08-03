@@ -39,7 +39,7 @@ def prompt():
     user_input = input(Fore.CYAN + ">>> ")
 
     if user_input == "<tokens>":
-        print(WARNING! if you put the token amount too high, the system can crash. (Recommended: 120)
+        print("WARNING! if you put the token amount too high, the system can crash. (Recommended: 120")
         tokens=input("amount")
         if not isinstance(tokens, int):
             print("Invalid value")
@@ -81,4 +81,5 @@ while True:
         break
     except Exception as e:
         print(f"Error: {e}")
+
 
