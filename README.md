@@ -35,7 +35,7 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
     ```bash
     sudo apt install python3-full
     ```
-
+    Then clone the repository
     ```bash
     git clone https://github.com/TheMongoose/Kitty-Hack
     cd Kitty-Hack
