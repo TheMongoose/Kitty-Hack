@@ -10,6 +10,7 @@ repo_id = "unsloth/gemma-3-4b-it-GGUF" # Or "tensorblock/gemma-3-4b-it-GGUF"
 file_to_download = "gemma-3-4b-it-Q4_K_M.gguf" 
 
 snapshot_download(
+    local_dir=''
     repo_id=repo_id, 
     allow_patterns=[file_to_download]
 )
