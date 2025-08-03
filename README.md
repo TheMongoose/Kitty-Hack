@@ -58,11 +58,10 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
     **Model Name:** `unsloth/gemma-3-4b-it-GGUF`
     **Specific File:** `gemma-3-4b-it-Q4_K_M.gguf`
 
-    **Download Instructions:**
-    * Visit the official Hugging Face repository for the model: https://huggingface.co/unsloth/gemma-3-4b-it-GGUF
-    * Navigate to the "Files" tab.
-    * Download the `gemma-3-4b-it-Q4_K_M.gguf` file.
-    * Place the downloaded file in the same directory as your `kitty_hack.py` script
+# AI download
+```bash
+python3 download.py
+```
 
 ## Usage
 
