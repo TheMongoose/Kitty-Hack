@@ -61,3 +61,5 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 
 ```bash
 python3 kitty_hack.py
+```
+**Happy hacking!!!**
