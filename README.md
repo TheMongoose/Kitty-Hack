@@ -30,23 +30,29 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 ## Installation
 
 1.  **Clone the repository:**
+
+    If you don't have python:
+    ```bash
+    sudo apt install python3-full
+    ```
+
     ```bash
     git clone https://github.com/TheMongoose/Kitty-Hack
     cd Kitty-Hack
     ```
 
-2.  **Create and activate a Python virtual environment (recommended):**
+3.  **Create and activate a Python virtual environment (recommended):**
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
 
-3.  **Install the required Python dependencies:**
+4.  **Install the required Python dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Download the Gemma GGUF model:**
+5.  **Download the Gemma GGUF model:**
     The AI model itself (`gemma-3-4b-it-Q4_K_M.gguf`) is **NOT** included in this repository due to its large size and licensing terms. You must download it separately.
 
     **Model Name:** `unsloth/gemma-3-4b-it-GGUF`
