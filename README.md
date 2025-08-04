@@ -23,7 +23,10 @@ Kitty-Hack is your personal AI assistant specializing in cybersecurity and ethic
 ## Features
 
 * Interactive chat interface
-* Terminal access (soon)
+* Terminal access
+* Output followup
+* Temporary memory
+* Permanent memory. (can be cleared with /clearmemory)
 * Persona-driven responses
 * Leverages the powerful Gemma 3 AI model
 
@@ -67,5 +70,16 @@ python3 download.py
 
 ```bash
 python3 kitty_hack.py
+```
+# Commands
+```
+# to edit token amount (defalt 120)
+>>> /tokens
+
+# to clear CLI
+>>> /clear
+
+# to clear memory
+>>> /clearmemory
 ```
 **Happy hacking!!!**
