@@ -4,6 +4,9 @@ import os
 import re
 import subprocess
 import json
+from pyfiglet import Figlet
+
+f = Figlet(font='slant')
 
 init(autoreset=True)
 
@@ -81,6 +84,9 @@ def prompt_user_input():
 
     if user_input == "/clear":
         os.system("clear")
+        print(Fore.CYAN + f.renderText('Kitty-Hack'))
+        print(Fore.GREEN + 'vBandit-1.0')
+
         return prompt_user_input()
     if user_input == "/clearmemory":
         os.system("rm bandit_history.json")
@@ -159,7 +165,8 @@ os.system("clear")
 
 def token_estimate(text):
     return int(len(text.split()) * 1.2)
-
+print(Fore.CYAN + f.renderText('Kitty-Hack'))
+print(Fore.GREEN + 'vBandit-1.0')
 while True:
     try:
         # Flag to control whether we need new user input or are processing command output
